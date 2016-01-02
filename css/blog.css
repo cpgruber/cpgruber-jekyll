@@ -1,9 +1,22 @@
 .posts{
   list-style: none;
 }
-.post-meta{
-  font-size:1.4rem;
+.post-meta, .post-tags{
+  font-size:2rem;
+  font-family:'Muli', 'arial', sans-serif;
+}
+.post-tags{
+  font-size:1.6rem;
+}
+.post-description{
+  padding-left:2rem;
 }
 .post-content{
   font-size: 1.8rem;
+}
+.post-tags span:after{
+  content:" . "
+}
+.post-tags span:last-of-type:after{
+  display:none;
 }

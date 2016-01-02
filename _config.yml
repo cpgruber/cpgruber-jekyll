@@ -18,6 +18,3 @@ twitter_username: CPGrubes
 github_username:  cpgruber
 # Build settings
 markdown: kramdown
-gems: [jekyll-paginate]
-paginate: 5
-paginate_path: "/archives/page/:num"
