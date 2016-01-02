@@ -2,7 +2,7 @@ var borderC = 'rgba(60,60,60,0.8)';
 var strokeW = 21;
 var jos = 7;
 
-d3.json('../assets/portfolioItems.json', function(error,data){
+d3.json('../assets/portfolio.json', function(error,data){
   var included = data.items.filter(function(a){return a.include == 'y'});
   buildPortfolio(included);
 });

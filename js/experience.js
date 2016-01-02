@@ -50,7 +50,7 @@ sketchyCircles.each(function(d){
 .on('touchmove', dotHover)
 .on('touchend', barOut);;
 
-d3.json('../assets/timePts.json', function(error,data){
+d3.json('../assets/experience.json', function(error,data){
   var includes = data.items.filter(function(a){return a.include == 'y'});
   var skills = data.technical;
   buildResume(includes,skills);
