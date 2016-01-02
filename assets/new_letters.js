@@ -12,7 +12,7 @@ function hoverify(element){
   var text = element.textContent;
   var letters = text.split('');
   var div = document.createElement('div');
-  div.className = element.className;
+  div.className = element.className + " cf";
 
   for (var i=0;i<letters.length;i++){
     var span = document.createElement('span');

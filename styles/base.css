@@ -1,160 +1,157 @@
-    *{
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-    }
-    body{
-      background-color: white;
-      background: url('linedpaper.png') repeat;
-      font-size:62.5%;
-      color:#333;
-      color:rgba(0,0,0,0.6);
-      font-family: 'Muli', 'arial', sans-serif;
-      -webkit-box-sizing: content-box;
-      -moz-box-sizing: content-box;
-      box-sizing: content-box;
-    }
-    .container::before{
-      content:'';
-      position:absolute;
-      width:1px;
-      height:100%;
-      left:-20px;
-      top:0;
-      border-color:#ff1122;
-      border-left:1.5px solid rgba(235,10,10,0.35);
-      border-right:1.5px solid rgba(235,10,10,0.35);
-      z-index:100;
-    }
-    .name{
-    	font-family: 'Londrina Sketch','Londrina Outline',cursive;
-    	font-size:14rem;
-      margin:0;
-      min-width:250px;
-      width:auto;
-    }
-    .name span{
-      float:left;
-      margin:0;
-      line-height:10rem;
-      cursor:default;
-      -moz-transition:margin 0.25s;
-      -o-transition:margin 0.25s;
-      -webkit-transition:margin 0.25s;
-      transition: margin 0.25s;
-    }
-    .name span:hover{
-      margin-top:-5px;
-    }
-    h1, h2{
-      font-family:'Ovo', serif;
-      font-size:3.6rem;
-    }
-    h3{
-      font-family:'Ovo', serif;
-      font-size:3.2rem;
-    }
-    .footer{
-      margin-top:40px;
-      margin-bottom:40px;
-      font-size:1.6rem;
-      text-align:center;
-    }
-    .footer a{
-      cursor:pointer;
-      text-decoration: none;
-      color:#333;
-      color:rgba(0,0,0,0.6);
-    }
-    #socmedia{
-      list-style: none;
-      margin:0 auto;
-      height:64px;
-      width:256px;
-    }
-    #socmedia li{
-      display:inline-block;
-      float:left;
-      -moz-transition:margin 0.25s;
-      -o-transition:margin 0.25s;
-      -webkit-transition:margin 0.25s;
-      transition: margin 0.25s;
-    }
-    #socmedia li:hover{
-      margin-top:-10px;
-    }
-
-    #socmedia li img{
-      height:64px;
-      width:64px;
-      opacity: 0.7;
-    }
-    .break{
-      display:block;
-    }
-    .page{
-      position:relative;
-    }
-    .page h2{
-      vertical-align: middle;
-      line-height: 300px;
-      text-align: center;
-    }
-    .page p{
-      position:absolute;
-      top:0;
-    }
-    .footername{
-      font-size:5.4rem;
-      margin:0 auto;
-      font-family: 'Londrina Sketch','Londrina Outline',cursive;
-    }
-    .nav{
-      list-style: none;
-      float:right;
-      margin-top:10px;
-      margin-bottom:30px;
-      z-index:1000;
-    }
-    .nav li{
-      display:inline-block;
-      font-size:1.6rem;
-    }
-    .nav li a{
-      text-decoration:none;
-      color:#333;
-      color:rgba(0,0,0,0.6);
-    }
-    .nav li::after{
-      content:' / ';
-    }
-    .nav li:last-child::after{
-      content:'';
-    }
-    .projectHead{
-      margin-top:3rem;
-    }
-    .description{
-      font-size:1.6rem;
-    }
-    @media (max-width:550px){
-      .container::before{
-        display:none;
-      }
-      .holes{
-        display:none;
-      }
-      .nav li{
-        font-size:2.0rem;
-        line-height:2rem;
-      }
-      .footername{
-        font-size:4rem;
-      }
-    }
-    .holes{
-      position:absolute;
-      top:0;
-      left:2%;
-      width:24px;
-    }
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+  background: url('linedpaper.png') repeat;
+  font-size:62.5%;
+  color:#333;
+  color:rgba(0,0,0,0.6);
+  font-family: 'Muli', 'arial', sans-serif;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.cf:after{
+  content:'';
+  display:table;
+  clear:both;
+}
+.name{
+	font-family: 'Londrina Sketch','Londrina Outline',cursive;
+	font-size:14rem;
+  margin:0;
+  min-width:250px;
+  width:auto;
+  margin-bottom:4rem;
+}
+.name span{
+  float:left;
+  margin:0;
+  line-height:10rem;
+  cursor:default;
+  -moz-transition:margin 0.25s;
+  -o-transition:margin 0.25s;
+  -webkit-transition:margin 0.25s;
+  transition: margin 0.25s;
+}
+.name span:hover{
+  margin-top:-5px;
+}
+h1, h2{
+  font-family:'Ovo', serif;
+  font-size:3.6rem;
+}
+h3{
+  font-family:'Ovo', serif;
+  font-size:3.2rem;
+}
+footer{
+  margin-top:40px;
+  margin-bottom:40px;
+  font-size:1.6rem;
+  text-align:center;
+}
+footer a,
+footer a:focus,
+footer a:active,
+footer a:hover,
+footer a:visited{
+  cursor:pointer;
+  text-decoration: none;
+  color:#333;
+  color:rgba(0,0,0,0.6);
+}
+#socmedia{
+  list-style: none;
+  margin:0 auto;
+  height:64px;
+  width:256px;
+}
+#socmedia li{
+  display:inline-block;
+  float:left;
+  -moz-transition:margin 0.25s;
+  -o-transition:margin 0.25s;
+  -webkit-transition:margin 0.25s;
+  transition: margin 0.25s;
+}
+#socmedia li:hover{
+  margin-top:-10px;
+}
+#socmedia li img{
+  height:64px;
+  width:64px;
+  opacity: 0.7;
+}
+.break{
+  display:block;
+}
+.page{
+  position:relative;
+}
+.page h2{
+  vertical-align: middle;
+  line-height: 300px;
+  text-align: center;
+}
+.page p{
+  position:absolute;
+  top:0;
+}
+.footername{
+  font-size:5.4rem;
+  margin:0 auto;
+  font-family: 'Londrina Sketch','Londrina Outline',cursive;
+}
+.nav{
+  list-style: none;
+  float:right;
+  margin-top:10px;
+  margin-bottom:30px;
+  z-index:1000;
+}
+.nav li{
+  display:inline-block;
+  font-size:1.6rem;
+}
+.nav li a{
+  text-decoration:none;
+  color:#333;
+  color:rgba(0,0,0,0.6);
+}
+.nav li::after{
+  content:' / ';
+}
+.nav li:last-child::after{
+  content:'';
+}
+.projectHead{
+  margin-top:3rem;
+}
+.description{
+  font-size:1.6rem;
+}
+@media (max-width:550px){
+  .container::before{
+    display:none;
+  }
+  .holes{
+    display:none;
+  }
+  .nav li{
+    font-size:2.0rem;
+    line-height:2rem;
+  }
+  .footername{
+    font-size:4rem;
+  }
+}
+.holes{
+  position:absolute;
+  top:0;
+  left:2%;
+  width:24px;
+}

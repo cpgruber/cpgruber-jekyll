@@ -139,7 +139,7 @@ timelinePts.sort(function(a,b){
   return (a.start[0]*12+a.start[1]) - (b.start[0]*12+b.start[1])
 });
 
-var todayLine = svg.append('path').style('stroke',black).style('stroke-width',1.2).style('fill','none')
+/*var todayLine = svg.append('path').style('stroke',black).style('stroke-width',1.2).style('fill','none')
 .attr('d',function(){
   var y0 = monthScale(currentYear*12+currentMonth+currentDay);
   var y1 = y0 - (margins.top*0.2);
@@ -155,7 +155,7 @@ var todayText = svg.append('text').text('today').style('fill',black)
     var x = (0.4)*margins.left;
     var y = monthScale(currentYear*12+currentMonth+currentDay)-(margins.top*0.25);
     return 'translate('+x+','+y+')rotate(-90)';
-});
+});*/
 
 var sketchyBars = svg.selectAll('g.bar').data(timelinePts).enter().append('g').attr('class','bar');
 sketchyBars.each(function(d,i){
@@ -284,7 +284,7 @@ yearMarks
     return 'translate('+x+','+y+')';
   });
 
-  todayLine.attr('d',function(){
+  /*todayLine.attr('d',function(){
     var y0 = monthScale(currentYear*12+currentMonth+currentDay);
     var y1 = y0 - (margins.top*0.2);
     var y2 = y0 - (margins.top*0.8);
@@ -296,9 +296,9 @@ yearMarks
       var x = (0.4)*margins.left;
       var y = monthScale(currentYear*12+currentMonth+currentDay)-(margins.top*0.8);
       return 'translate('+x+','+y+')rotate(-90)';
-  });
+  });*/
 
-holeResize();
+// holeResize();
 
 }
 
