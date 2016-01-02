@@ -6,7 +6,7 @@
   <body>
     {% include header.html %}
     <div class="container cf">
-      {% include pageName.html %}
+      {% if page.h1 %}{% include pageName.html %}{% endif %}
 
       {{ content }}
 

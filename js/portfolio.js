@@ -61,7 +61,7 @@ function buildPortfolio(items){
 window.onresize = function(){
   d3.selectAll('.item').each(unhoverItem);
   d3.select('.item.opened').each(hoverItem);
-  holeResize();
+  // holeResize();
 }
 
 function getSketchy(that,h){
