@@ -14,8 +14,8 @@
   <link href="{{ "/css/normalize.css" | prepend: site.baseurl }}" rel='stylesheet' type='text/css'>
   <link href="{{ "/css/skeleton.css" | prepend: site.baseurl }}" rel='stylesheet' type='text/css'>
   <link href="{{ "/css/base.css" | prepend: site.baseurl }}" rel='stylesheet' type='text/css'>
-  <link href="{% if page.css %}{{ page.css | prepend: site.baseurl }}{% endif %}" rel='stylesheet' type='text/css'>
-  <link href="{% if page.layout == "post" %}{{ "/css/blog.css" | prepend: site.baseurl }}{% endif %}" rel='stylesheet' type='text/css'>
+  {% if page.css %}<link href="{{ page.css | prepend: site.baseurl }}" rel='stylesheet' type='text/css'>{% endif %}
+  {% if page.layout == "post" %}<link href="{{ "/css/blog.css" | prepend: site.baseurl }}" rel='stylesheet' type='text/css'>{% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>

@@ -3,4 +3,4 @@
 <!-- <script type='text/javascript' src='../assets/holes.js'></script> -->
 <script type='text/javascript' src='{{site.url}}/js/new_letters.js'></script>
 <script type='text/javascript' src='{{site.url}}/js/sketchy.js'></script>
-<script type='text/javascript' src='{% if page.js %}{{ page.js | prepend: site.baseurl }}{% endif %}'></script>
+{% if page.js %}<script type='text/javascript' src='{{ page.js | prepend: site.baseurl }}'></script>{% endif %}
