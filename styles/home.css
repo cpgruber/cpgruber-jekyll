@@ -1,0 +1,74 @@
+.background{
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.name{
+  display:inline-block;
+  font-family: 'Londrina Sketch',cursive;
+  font-size:14rem;
+  margin:4rem 0;
+  margin-top:8rem;
+  min-width:250px;
+  width:auto;
+}
+@media only screen and (max-width: 625px) {
+  .name{
+    font-size:12rem;
+  }
+}
+@media only screen and (max-width: 505px) {
+  .name{
+    font-size:10rem;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .name{
+    font-size:14rem;
+  }
+  .subname span{
+    font-size:6.4rem;
+  }
+}
+.subname{
+  display:inline-block;
+  font-family: 'Londrina Sketch',cursive;
+  font-size:8.4rem;
+  margin:2rem 0;
+  min-width:250px;
+  width:auto;
+}
+.subname span{
+  float:left;
+  margin:0;
+  line-height:8rem;
+  cursor:pointer;
+  -moz-transition:margin 0.25s;
+  -o-transition:margin 0.25s;
+  -webkit-transition:margin 0.25s;
+  transition: margin 0.25s;
+}
+.subname span:hover{
+  margin-top:-10px;
+}
+.row a{
+  text-decoration: none;
+  color:#333;
+  color:rgba(0,0,0,0.6);
+  cursor:pointer;
+}
+.row p{
+  width:50%;
+  margin:0 auto;
+}
+.somewords{
+  margin:3rem auto;
+  font-family: 'Ovo', times, serif;
+  font-size:1.6rem;
+}
+.somewords p{
+  margin-bottom:1.2rem;
+}
+.row{
+  text-align:center;
+}

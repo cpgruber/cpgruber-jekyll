@@ -1,0 +1,90 @@
+@media only screen and (max-width: 625px) {
+  .name{
+    font-size:12rem;
+  }
+}
+@media only screen and (max-width: 505px) {
+  .name{
+    font-size:10rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .name{
+    font-size:14rem;
+  }
+}
+.content{
+  position:relative;
+  float:right;
+  clear:left;
+}
+.content p{
+  font-size:2.4rem;
+  margin-bottom:0;
+}
+.main ul{
+  margin-top:0;
+  font-size:1.8rem;
+  line-height:1.8rem;
+  list-style-position:outside;
+  padding:1rem;
+}
+.main ul li{
+  margin-top:1rem;
+}
+.content img{
+  height:90%;
+  width:90%;
+  -webkit-box-shadow: 4px 2px 10px -1px rgba(51,51,51,0.42);
+  -moz-box-shadow: 4px 2px 10px -1px rgba(51,51,51,0.42);
+  box-shadow: 4px 2px 10px -1px rgba(51,51,51,0.42);
+  margin:5%;
+  margin-bottom:2rem;
+}
+.tape{
+  background-image:url('../about/about_images/tape.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+  z-index:10;
+  opacity: 0.5;
+  height:40px;
+  width:100px;
+-moz-transform: rotate(-40deg);
+-o-transform: rotate(-40deg);
+-ms-transform: rotate(-40deg); /* IE 9 */
+-webkit-transform: rotate(-40deg); /* Chrome, Safari, Opera */
+transform: rotate(-40deg);
+}
+.tape1{
+  top:5%;
+  left:3%;
+  -moz-transform-origin: 0 150%;
+  -o-transform-origin: 0 150%;
+  -ms-transform-origin: 0 150%; /* IE 9 */
+  -webkit-transform-origin: 0 150%; /* Chrome, Safari, Opera */
+  transform-origin: 0 150%;
+}
+.tape2{
+  bottom:7%;
+  right:1%;
+  -moz-transform-origin: 100% 0;
+  -o-transform-origin:100% 0;
+  -ms-transform-origin: 100% 0; /* IE 9 */
+  -webkit-transform-origin: 100% 0; /* Chrome, Safari, Opera */
+  transform-origin: 100% 0;
+}
+.content .caption{
+  position:absolute;
+  bottom:10px;
+  font-size:12px;
+  margin:0;
+  height:auto;
+  text-align:center;
+  width:100%;
+  z-index:2;
+}
+.main{
+  font-size:2rem;
+  margin-top:5rem;
+}

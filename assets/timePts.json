@@ -1,0 +1,245 @@
+{"items":[
+{
+    "title": "Maptime Cape Cod",
+    "position":"Co-founder and organizer",
+    "type":"Other",
+    "start":[2015,1.5],
+    "end":[2015,8.6],
+    "location":"Cape Cod, MA",
+    "date":"Feb 2015 - Present",
+    "description":"Helped launch local chapter of Maptime, an international community that provides open access to modern mapping technologies and trends. Led a meetup on web maps and mapping libraries, and included a live coding demo to build a simple, interactive map.",
+    "include":"y"
+},
+{
+    "title": "Cape Cod Commission",
+    "position": "Contract Web Developer, <span class='strike'><span class='innerStrike'>GIS Analyst I</span></span>, <span class='strike'><span class='innerStrike'>GIS Intern</span></span>",
+    "position": "Contract Web Developer, <span class='innerStrike'>GIS Analyst I</span>, <span class='innerStrike'>GIS Intern</span>",
+    "type":"Work",
+    "start":[2014,4.8],
+    "end":[2015,11.5],
+    "location":"Barnstable, MA",
+    "date":"May 2014 - December 2015",
+    "description":"Built and deployed web mapping applications for Cape Cod's local government. Created a web application that displays user-made wastewater infrastructure planning scenarios in the context of local data, and 'grades' a scenario and its planned infrastructure with regard to cost effectiveness, community compatability, and reliability of performance. Created a quarterly, data-driven information product highlighting various insights into Cape Cod's unique seasonal economy.",
+    "include":"y"
+},
+{
+    "title": "Chatham Shellfish",
+    "position":"Commercial Oysterman",
+    "type":"Work",
+    "start":[2014,4.9],
+    "end":[2014,7.6],
+    "location":"Chatham, MA",
+    "date":"May 2014 - August 2014",
+    "description":"Provided labor on a commercial oyster farm. Daily duties included raking hundreds of pounds of oysters off the seafloor, sorting oysters by size and quality, propagating juvenile oysters for growth, and preparing large-quantity orders for restaurants and seafood distributors.",
+    "include":"y"
+},
+{
+    "title": "Palau",
+    "position":"",
+    "type":"Other",
+    "start":[2014,0],
+    "end":[2014,0.9],
+    "location":"Palau, NC",
+    "date":"January 2014",
+    "description":"papapapapapalau",
+    "include":"n"
+},
+{
+    "title": "Cape Cod Commercial Fishermen's Alliance",
+    "position":"Fisheries Policy Intern",
+    "type": "Work",
+    "start":[2013,4.8],
+    "end":[2013,7.3],
+    "location":"Chatham, MA",
+    "date":"May 2013 - August 2013",
+    "description":"Provided GIS support for planning mussel aquaculture lease sites in Nantucket Sound. Designed and implemented surveys to collect information from commercial fishermen about their opinions of the growing gray seal population. Assisted in launching policy-driven channeled whelk growth study in Nantucket Sound.",
+    "include":"y"
+},
+{
+    "title": "Duke Forest",
+    "position":"Operations and Management Assistant",
+    "type": "Work",
+    "start":[2012,7.8],
+    "end":[2013,4.6],
+    "location":"Durham, NC",
+    "date":"August 2012 - May 2013",
+    "description":"Performed timber cruises of commercial forest plots for pre-sale appraisal. Monitored sapling density in cleared plots as part of ongoing study of forest succession. Manned vehicle for nocturnal deer surveys.  Maintained forest trails and facilities for safety and cleanliness.",
+    "include":"y"
+},
+{
+    "title": "Duke University Nicholas School of the Environment",
+    "position":"Master of Environmental Management",
+    "type": "Education",
+    "start":[2012,7.5],
+    "end":[2014,4.8],
+    "location":"Durham, NC",
+    "date":"August 2012 - May 2014",
+    "description":"Studied Coastal Management issues through biophysical, economic, and institutional lenses. Gained proficiency in GIS, geospatial analysis, and Python programming.",
+    "include":"y"
+},
+{
+    "title": "Duke University Marine Lab",
+    "position":"Coastal Environmental Management",
+    "type":"Education",
+    "start":[2013,7.75],
+    "end":[2014,4.6],
+    "location":"Beaufort, NC",
+    "date":"August 2013 - May 2014",
+    "description":"Masters Project: <a target='_blank' href='http://dukespace.lib.duke.edu/dspace/handle/10161/8473'>Social, Economic, and Spatial Perceptions of Gray Seal Interactions with Commercial Fisheries in Cape Cod, MA</a>",
+    "include":"n"
+},
+{
+    "title": "Four Seasons Hotel and Resort",
+    "position":"Security Officer",
+    "type": "Work",
+    "start":[2012,5],
+    "end":[2012,7.3],
+    "location":"Vail, CO",
+    "date":"June 2012 - August 2012",
+    "description":"Worked 30 hours per week as a contracted security officer at a five-star hotel. Regular duties included: patrolling hotel and residences, responding to 911 calls from within the hotel, and assuring guest satisfaction and safety.",
+    "include":"y"
+},
+{
+    "title": "Oceans Research",
+    "position":"Marine Research Intern",
+    "type": "Other",
+    "start":[2011,5],
+    "end":[2011,7],
+    "location":"Mossel Bay, South Africa",
+    "date":"June 2011 - August 2011",
+    "description":"Assisted with studies of local Great white shark population. Spent up to eight hours on a boat taking pictures of shark dorsal fins in support of a population dynamics study.",
+    "include":"y"
+},
+{
+    "title": "Davidson College Avian Behavior Laboratory",
+    "position":"Student Researcher",
+    "type":"Other",
+    "start":[2011,0.2],
+    "end":[2011,4.8],
+    "location":"Around Davidson, NC",
+    "date":"January 2011 - May 2011",
+    "description":"Assisted Dr. Mark Stanback with his research concerning reproductive constraints and cooperative breeding of local avian species. Checked dozens of nest boxes in the greater Davidson area and weighed clutches of eggs, measured and banded hatchlings, and identified breeding pairs.",
+    "include":"y"
+},
+{
+    "title": "University of Cincinnati",
+    "position":"Summer Undergraduate Research Fellow in Neuroscience",
+    "type":"Other",
+    "start":[2010,4.8],
+    "end":[2010,7.2],
+    "location":"Cincinnati, OH",
+    "date":"May 2010 - August 2010",
+    "description":"Assisted Dr. Sheila Fleming with her studies of mouse models of Parkinson Disease. Tested mice for locomotor/olfactory deficits and anhedonia, filmed and analyzed behavioral tests, and weaned, sexed, and euthanized mice in mouse colony room.",
+    "include":"y"
+},
+{
+    "title": "General Assembly",
+    "position":"Web Development Immersive student",
+    "type":"Education",
+    "start":[2015,9.3],
+    "end":[2016,0.35],
+    "location":"Washington, D.C.",
+    "date":"October 2015 - January 2016",
+    "description":"Learning web development all day every day.",
+    "include":"y"
+},
+{
+    "title": "Davidson College",
+    "position":"Bachelor of Science in biology",
+    "type":"Education",
+    "start":[2008,7.8],
+    "end":[2012,4.8],
+    "location":"Davidson, NC",
+    "date":"August 2008 - May 2012",
+    "description":"Studied biology within liberal arts context. Coursework spanned a breadth of topics, from very 'small' things like genetics and histology to 'big' concepts like animal behavior and evolution.",
+    "include":"y"
+},
+{
+    "title": "School for Field Studies",
+    "position":"Coastal Resource Management",
+    "type":"Other",
+    "start":[2010,7.9],
+    "end":[2010,11.5],
+    "location":"South Caicos, Turks and Caicos Islands",
+    "date":"August 2010 - December 2010",
+    "description":"Lived fully immersed in a small island developing community to study effects of tourism and governance on marine and human ecosystems.",
+    "include":"y"
+},
+{
+    "title": "Vail Christian High School",
+    "position":"",
+    "type":"Education",
+    "start":[2004,7.8],
+    "end":[2008,4.8],
+    "location":"Edwards, CO",
+    "date":"August 2004 - May 2008",
+    "description":"high school",
+    "include":"n"
+}
+],
+"technical":[
+"Languages: JavaScript, Ruby, SQL, HTML, CSS, Python, PHP",
+"Frameworks/Libraries: D3.js, jQuery, node/express, Rails, Sinatra",
+"GIS: Mapbox.js, Leaflet.js, geojson, topojson, ESRI ArcGIS suite 10.x, including ArcServer, ArcGIS JavaScript API, ArcPy, ModelBuilder, ArcGIS Online",
+"Database: MongoDB, PostgreSQL, MSSQL",
+"Version Control: Git, Github, Heroku"
+],
+"skills":[{
+    "title": "Began learning GIS",
+    "tp":[2012,7.6],
+    "location":"Duke University",
+    "date":"August 2012",
+    "description":"ESRI GIS",
+    "include":"y"
+},
+{
+    "title": "Python",
+    "tp":[2013,8.5],
+    "location":"Duke University",
+    "date":"September 2013",
+    "description":"Python",
+    "include":"y"
+},
+{
+    "title": "Began learning Code, JS, jQuery, CSS, HTML",
+    "tp":[2014,9.5],
+    "location":"CCC",
+    "date":"August 2012",
+    "description":"JS",
+    "include":"y"
+},
+{
+    "title": "ESRI JS API",
+    "tp":[2014,10],
+    "location":"ccc",
+    "date":"August 2012",
+    "description":"ESRI GIS",
+    "include":"y"
+},
+{
+    "title": "mapbox, leaflet",
+    "tp":[2015,1.3],
+    "location":"Duke University",
+    "date":"August 2012",
+    "description":"ESRI GIS",
+    "include":"y"
+},
+{
+    "title": "php",
+    "tp":[2015,0.15],
+    "location":"Duke University",
+    "date":"August 2012",
+    "description":"ESRI GIS",
+    "include":"y"
+},
+{
+    "title": "D3",
+    "tp":[2015,5.6],
+    "location":"Duke University",
+    "date":"August 2012",
+    "description":"ESRI GIS",
+    "include":"y"
+}
+
+]
+}

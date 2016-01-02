@@ -1,0 +1,104 @@
+@media only screen and (max-width: 625px) {
+  .name{
+    font-size:12rem;
+  }
+}
+@media only screen and (max-width: 505px) {
+  .name{
+    font-size:10rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .name{
+    font-size:16rem;
+  }
+}
+.item{
+  position:relative;
+  /*height:150px;*/
+  margin-top:3.5rem;
+}
+.item h2{
+  width:100%;
+  font-size:2rem;
+  margin-bottom:5px;
+}
+.item h2 a{
+  float:right;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.innerPic{
+  position:relative;
+  width:100%;
+  height:100px;
+  background-size:cover;
+  background-position:center;
+  font-size:1.6rem;
+}
+svg{
+  position:absolute;
+  width:105%;
+  z-index:10;
+}
+.sketchBorder{
+  width:100%;
+}
+.links{
+  position:absolute;
+  bottom:10px;
+  right:15px;
+  z-index:100;
+  display:none;
+  opacity:0;
+}
+.links a:last-of-type{
+  margin-left:1em;
+}
+.name{
+  margin-bottom:4rem;
+}
+.innerDesc{
+  opacity: 0;
+  /*height: auto;*/
+  position: absolute;
+  width: 100%;
+  font-size:1.6rem;
+  line-height: 1.6rem;
+  background-color: rgba(255,255,255,0.9);
+}
+.innerText{
+  height:90%;
+  width:90%;
+  margin:5%;
+  z-index:1000;
+}
+.item p{
+  font-size:1.2rem;
+  float:right;
+  width:70%;
+  margin-top:10px;
+  text-align:right;
+  line-height: 1.2rem;
+}
+.item p.date{
+  float:left;
+  text-align:left;
+  width:30%;
+}
+@media only screen and (max-width: 925px) {
+  .ten.columns.item{
+    width:95%;
+  }
+}
+@media (max-width: 550px){
+  .item{
+    margin-bottom:2rem;
+  }
+}
+.innerDesc{
+  z-index:2;
+}
+.innerText a{
+  z-index:1000;
+}

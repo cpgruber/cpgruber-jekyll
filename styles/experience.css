@@ -1,0 +1,125 @@
+.name{font-family: 'Londrina Sketch',cursive;}
+@media only screen and (max-width: 725px) {
+  .name{
+    font-size:12rem;
+  }
+}
+@media only screen and (max-width: 625px) {
+  .name{
+    font-size:10rem;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .name{
+    font-size:8rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .name{
+    font-size:16rem;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .name{
+    font-size:16rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .name{
+    font-size:14rem;
+  }
+}
+.narrate{
+  font-size:1.6rem;
+  margin-top:3rem;
+}
+.timeline{
+  height:100%;
+  width:155px;
+  margin-top:6rem;
+  position:absolute;
+}
+.yrMark{
+  font-family:'Muli',sans-serif;
+  font-size:2.4rem;
+  opacity:0.65;
+}
+.tooltip{
+  font-size:1.6rem;
+  width:auto;
+  max-width:150px;
+  background-color:#fff;
+  background-color:rgba(255,255,255,1);
+  padding:10px;
+  border-radius: 1px;
+  background-color:peachpuff;
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.25);
+}
+.tooltip h2{
+  font-family:'Muli', sans-serif;
+  margin:0;
+  text-align: center;
+  font-size:2rem;
+}
+.tooltip h3{
+  font-family:'Muli', sans-serif;
+  margin:0;
+  text-align: center;
+  font-size:1.6rem;
+}
+.tooltip p{
+  margin:0;
+}
+.item h3{
+  font-size:2.4rem;
+  margin-bottom:1rem;
+}
+.item h4{
+  font-size:1.8rem;
+  line-height: 2rem;
+}
+.item p,.item li{
+  font-size:1.6rem;
+}
+.strike{
+  /*font-size:0.1rem;*/
+  height:1.2rem;
+  border-color:#ff9900;
+  border-top:2.5px solid rgba(255,10,10,0.4);
+}
+.innerStrike{
+  /*font-size:2.4rem;*/
+  color:#666;
+  color:rgba(0,0,0,0.4);
+}
+.secHead{
+  text-align:center;
+}
+.resume{
+  padding-left:170px;
+}
+@media (max-width: 550px) {
+  body{
+    width:100vw;
+    overflow-x:hidden;
+  }
+  .container{
+    width:95%;
+  }
+}
+@media (max-width: 450px) {
+  .container{
+    width:95%;
+  }
+  .timeline{
+    display:none;
+  }
+  .resume{
+    padding-left:0;
+  }
+}
+.sketchy{
+  fill-opacity:0.7;
+}

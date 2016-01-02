@@ -1,0 +1,182 @@
+{"items":[
+      {
+        "title":"GitStamps!",
+        "tags":["node.js","express","D3.js", "API", "MVC"],
+        "shortDesc":"GitStamps is a simple tool that takes a snapshot of a GitHub user and returns an aggregate characterization of the user at that moment. The application's back-end is built on node, express, and MongoDB, while the front end simulates a single page app using object oriented JavaScript and AJAX to retreive information from our API. The interactive chart on each stamp is generated using D3, and meant to emulate the breakdown of languages GitHub provides for each repository. GitStamps was created in 7 days by my team and me for our third project at General Assembly. It is still being developed, but can be used. Feel free to join and check out your GitHub existence!",
+        "image":"gitstamps.png",
+        "date":[12,15,"Dec. 2015"],
+        "url":"http://gitstamps.herokuapp.com",
+        "code":"http://www.github.com/timothytgregg/gitstamps",
+        "include":"y"
+      },
+      {
+        "title":"A Simple Game of War",
+        "tags":["JavaScript","D3.js", "CSS transitions"],
+        "shortDesc":"This application was my first project at General Assembly. I took an object oriented approach to programming everyone's favorite card game, War. I thought it would be cool to treat the playing cards as discrete data entities, rather than items in an array. I used D3 to bind data to individual cards, and CSS transitions to move them around the page as a part of the gameplay. I also made a simple data visualization to display the score and the number of plays that have been made. When you inevitably get bored, you can auto-complete the game and watch the line in the middle dance as the game reaches a conclusion.",
+        "image":"war.png",
+        "date":[10,15,"Oct. 2015"],
+        "url":"http://cpgruber.github.io/wdi-project1/",
+        "code":"http://www.github.com/cpgruber/wdi-project1/",
+        "include":"y"
+      },
+      {
+        "title":"Major League Data Challenge",
+        "tags":["Data Viz","D3.js","mapping", "HTML", "CSS"],
+        "shortDesc":"In October, I saw a challenge posted on my Twitter feed to visualize the careers of baseball's 20 best players. I thought, \"Why not? I have some down time, and I know some D3,\" so I decided to enter the contest. I didn't think I'd win, especially being so new to the field of data visualization. Admittedly not a baseball fanatic, I did not know which stats to convey or what makes one player better than another. Since I had no preconception of who's best, I figured the most objective way to a visualize the players' careers is to put all the data in a forum where users can interact with it and infer what they want. I focused on user experience, and sought to provide the user a tool they could explore for a matter of minutes or hours. In the end, I made a series of line charts depicting seasonal or cumulative stats for each player, with a feature that allows users to compare players (for instance, Albert Pujols and Babe Ruth) for a particular statistic.",
+        "image":"mldc.png",
+        "date":[11,15,"Nov. 2015"],
+        "url":"http://cpgruber.github.io/major-league-data-challenge/",
+        "code":"http://www.github.com/cpgruber/major-league-data-challenge",
+        "include":"y"
+      },
+      {
+        "title":"Barnstable Area Regional Trends - Summer Edition part 2",
+        "tags":["Data Viz","D3.js","mapping", "HTML", "CSS"],
+        "shortDesc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image":"bart_pt2.png",
+        "date":[8,15,"Aug. 2015"],
+        "url":"http://www.capecodcommission.org/index.php?id=553&maincatid=536",
+        "code":"",
+        "include":"n"
+      },
+      {
+        "title":"Barnstable Area Regional Trends - Summer Edition",
+        "tags":["Data Viz","D3.js","mapping", "HTML", "CSS"],
+        "shortDesc":"Barnstable Area Regional Trends (otherwise known as Bart) was my first foray into D3. While the learning curve was steep, as expected, the overall experience was positive as I learned a ton. There's a lot I would have done differently in the codebase with my current understanding of D3, but I'm happy with the way it turned out. My favorite page in the project is the County level comparison, which is meant to highlight Cape Cod as one of the nation's most densely seasonal home destination. While the code itself could be much more functionally efficient (and I wish I could fix it), this project will always remind me of my progress as a developer and the launch point of my love for D3.",
+        "image":"bart.png",
+        "date":[8,15,"Aug. 2015"],
+        "url":"http://www.capecodcommission.org/index.php?id=537&maincatid=536",
+        "code":"",
+        "include":"y"
+      },
+      {
+        "title":"Cape Cod 4th of July Fireworks Map",
+        "tags":["Mapbox", "Leaflet", "mapping", "Javascript", "jQuery"],
+        "shortDesc":"This is just a quick project I threw together in an evening. On Twitter, I saw local newspapers announcing locations and times for fireworks around the Cape, and I thought consolidating that information into a simple web map could be useful for a lot of folks. So in short order, I created and tweeted this map and got retweets from some major Cape Cod news sources.",
+        "image":"fireworks.png",
+        "date":[7,15,"July 2015"],
+        "url":"http://cpgruber.github.io/Cape-Cod-Fireworks",
+        "code":"",
+        "include":"y"
+      },
+      {
+        "title":"NYC Community Supported Agriculture Map",
+        "tags":["Mapbox","Leaflet","mapping", "Javascript", "jQuery"],
+        "shortDesc":"This project was my first venture into freelancing. I saw a post on geo.switchboardhq.com asking for an interactive map of farm share pick up locations around NYC. Once I was given the data, I created this locator map, and configured the data in a way that the client can add and edit locations using geojson.io, a map-based GUI. I also got to do a little CartoCSS in Mapbox Studio to change the display of labels and add subway and bus stops at particular zoom levels.",
+        "image":"nyccsa.png",
+        "date":[6,15,"June 2015"],
+        "url":"http://www.farmshare.nyc/interactive-map.html",
+        "code":"",
+        "include":"y"
+      },
+      {
+        "title":"Embayment Watershed Splits Viewer",
+        "tags":["ESRI Javascript API","mapping","Javascript", "jQuery"],
+        "shortDesc":"Bacon ipsum dolor amet qui non exercitation pariatur et adipisicing tongue swine. Picanha salami officia, adipisicing ad enim deserunt sint ex turducken drumstick shank aliquip. Bresaola shank ground round, ball tip in pancetta et nisi corned beef culpa eiusmod pariatur. Shankle beef corned beef boudin capicola.",
+        "image":"splitsviewer.png",
+        "date":[5,15,"May 2015"],
+        "url":"http://gis-services.capecodcommission.org/apps/JS_Developing/SplitsViewer",
+        "code":"",
+        "include":"n"
+      },
+      {
+        "title":"Cape Cod Community Characteristics Viewer",
+        "tags":["ESRI Javascript API","D3.js","jQuery UI","Javascript"],
+        "shortDesc":"The objective of this app was to characterize and compare different areas of the Cape, as Cape Cod is commonly misconstrued as homogenously affluent while in reality it is comprised of very diverse areas. The whole of Cape Cod was divided into a grid of hexagons (so hot right now, hexagons) and each hex was given a score for various characteristics based on what they intersect on the ground-- a better explanation is provided in the app itself. This project was handed to me in the form template-generated ESRI web app. Aesthetically, the app looked fine, but it lacked the interaction with the geographic data that my team sought. I decided to divorce the data from the template and build an app from scratch. My approach was to link the data displayed on the map to the section opened in the side panel, so that the user changes the map as they navigate through the narrative. To compare towns or areas, I came up with the three discs in the side panel, which the user can drag onto the map. When a disc is dragged, the characteristic score of the hexagons beneath this disc is averaged and displayed in a chart to provide a means for comparing towns and areas.",
+        "image":"commchara.png",
+        "date":[7.5,15,"July 2015"],
+        "url":"http://gis-services.capecodcommission.org/apps/JS_Developing/community-characteristics",
+        "code":"",
+        "include":"y"
+      },
+      {
+        "title":"Cape Cod Baseball League Opening Day Roster Map",
+        "tags":["Mapbox", "Leaflet", "mapping", "Javascript", "jQuery"],
+        "shortDesc":"For the better part of the summer, America's best collegiate baseball players converge on the Cape to play for and represent towns with populations smaller than their alma mater's student body. In anticipation of the first pitch, a colleague and I thought it would be fun to make a map showing the home fields of each team's opening day roster (and also to promote Maptime Cape Cod).",
+        "image":"ccbl.png",
+        "date":[6,15,"June 2015"],
+        "url":"http://maptimecapecod.github.io/Pages/CapeLeague",
+        "code":"",
+        "include":"y"
+      },
+      {
+        "title":"Mobtown Fermentation Wild Kombucha website",
+        "tags":["HTML", "Web design", "Leaflet", "geojson"],
+        "shortDesc":"Bacon ipsum dolor amet qui non exercitation pariatur et adipisicing tongue swine. Picanha salami officia, adipisicing ad enim deserunt sint ex turducken drumstick shank aliquip. Bresaola shank ground round, ball tip in pancetta et nisi corned beef culpa eiusmod pariatur. Shankle beef corned beef boudin capicola.",
+        "image":"kombucha.png",
+        "date":[6,15,"June 2015"],
+        "url":"http://www.mobtownfermentation.com",
+        "code":"",
+        "include":"n"
+      },
+      {
+        "title":"Cape Cod Commercial Fishermen's Alliance Interactive Fishing Map",
+        "tags":["Mapbox","Leaflet","geojson", "mapping"],
+        "shortDesc":"Bacon ipsum dolor amet qui non exercitation pariatur et adipisicing tongue swine. Picanha salami officia, adipisicing ad enim deserunt sint ex turducken drumstick shank aliquip. Bresaola shank ground round, ball tip in pancetta et nisi corned beef culpa eiusmod pariatur. Shankle beef corned beef boudin capicola.",
+        "image":"cccfa.png",
+        "date":[5,15,"May 2015"],
+        "url":"http://cpgruber.github.io/CCCFA-map",
+        "code":"",
+        "include":"n"
+      },
+      {
+        "title":"Spatial Analysis of Fisheries and Gray Seal Overlap",
+        "tags":["ESRI","spatial analysis","GIS", "mapping"],
+        "shortDesc":"Bacon ipsum dolor amet qui non exercitation pariatur et adipisicing tongue swine. Picanha salami officia, adipisicing ad enim deserunt sint ex turducken drumstick shank aliquip. Bresaola shank ground round, ball tip in pancetta et nisi corned beef culpa eiusmod pariatur. Shankle beef corned beef boudin capicola.",
+        "image":"seals.png",
+        "date":[5,14,"May 2014"],
+        "url":"#",
+        "code":"",
+        "include":"n"
+      },
+      {
+        "title":"Cape Cod Sea Level Rise Viewer",
+        "tags":["ESRI Javascript API","mapping","jQuery UI","Javascript"],
+        "shortDesc":"Bacon ipsum dolor amet qui non exercitation pariatur et adipisicing tongue swine. Picanha salami officia, adipisicing ad enim deserunt sint ex turducken drumstick shank aliquip. Bresaola shank ground round, ball tip in pancetta et nisi corned beef culpa eiusmod pariatur. Shankle beef corned beef boudin capicola.",
+        "image":"slr.png",
+        "date":[7,15,"July 2015"],
+        "url":"#",
+        "code":"",
+        "include":"n"
+      },
+      {
+        "title":"Scenario Assessment Model",
+        "tags":["php","Web design","ChartJS", "HTML","jQuery"],
+        "shortDesc":"Bacon ipsum dolor amet qui non exercitation pariatur et adipisicing tongue swine. Picanha salami officia, adipisicing ad enim deserunt sint ex turducken drumstick shank aliquip. Bresaola shank ground round, ball tip in pancetta et nisi corned beef culpa eiusmod pariatur. Shankle beef corned beef boudin capicola.",
+        "image":"sam.png",
+        "date":[3,15,"Mar. 2015"],
+        "url":"#",
+        "code":"",
+        "include":"n"
+      },
+      {
+        "title":"Cape Cod Wastewater Suitability Analysis aka Flowblobs",
+        "tags":["Python","ESRI","Javascript","jQuery UI"],
+        "shortDesc":"Bacon ipsum dolor amet qui non exercitation pariatur et adipisicing tongue swine. Picanha salami officia, adipisicing ad enim deserunt sint ex turducken drumstick shank aliquip. Bresaola shank ground round, ball tip in pancetta et nisi corned beef culpa eiusmod pariatur. Shankle beef corned beef boudin capicola.",
+        "image":"flowblobs.png",
+        "date":[1,15,"Jan. 2015"],
+        "url":"#",
+        "code":"",
+        "include":"n"
+      },
+      {
+        "title":"Section 208 viewer",
+        "tags":["php","ESRI Javascript API","mapping","jQuery UI"],
+        "shortDesc":"Bacon ipsum dolor amet qui non exercitation pariatur et adipisicing tongue swine. Picanha salami officia, adipisicing ad enim deserunt sint ex turducken drumstick shank aliquip. Bresaola shank ground round, ball tip in pancetta et nisi corned beef culpa eiusmod pariatur. Shankle beef corned beef boudin capicola.",
+        "image":"viewer.png",
+        "date":[12,14,"Dec. 2014"],
+        "url":"#",
+        "code":"",
+        "include":"n"
+      },
+      {
+        "title":"This Website",
+        "tags":["Web design","D3.js","github", "Javascript"],
+        "shortDesc":"Bacon ipsum dolor amet qui non exercitation pariatur et adipisicing tongue swine. Picanha salami officia, adipisicing ad enim deserunt sint ex turducken drumstick shank aliquip. Bresaola shank ground round, ball tip in pancetta et nisi corned beef culpa eiusmod pariatur. Shankle beef corned beef boudin capicola.",
+        "image":"blank",
+        "date":[12,14,"Dec. 2014"],
+        "url":"#",
+        "code":"",
+        "include":"n"
+      }]
+}
