@@ -20,7 +20,7 @@ function buildPortfolio(items){
       return d.title;
     });
   var picLink = outerDiv.append('div').attr('class','innerPic')
-    .style('background-image', function(d){return 'url("portfolio_images/'+d.image+'")';});
+    .style('background-image', function(d){return 'url("../assets/portfolio_images/'+d.image+'")';});
 
   picLink.append('svg').attr('height',(100+jos)).append('g').attr('class','sketchBorder');
 
