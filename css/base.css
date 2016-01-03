@@ -6,6 +6,8 @@
 body{
   background-color: white;
   background: url('linedpaper.png') repeat;
+  height:100%;
+  position:relative;
   font-size:62.5%;
   color:#333;
   color:rgba(0,0,0,0.6);
@@ -137,8 +139,20 @@ footer a:visited{
 .description{
   font-size:1.6rem;
 }
+.wrapper:before{
+  content:'';
+  display: block;
+  position:absolute;
+  width:1px;
+  height:100%;
+  left:7.5%;
+  top:0;
+  border-color:#ff1122;
+  border-left:1.5px solid rgba(235,10,10,0.35);
+  border-right:1.5px solid rgba(235,10,10,0.35);
+}
 @media (max-width:550px){
-  .container::before{
+  .wrapper:before{
     display:none;
   }
   .holes{
