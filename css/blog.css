@@ -20,3 +20,9 @@
 .post-tags span:last-of-type:after{
   display:none;
 }
+.blog-back{
+  margin-top:5rem;
+  margin-bottom:-3rem;
+  text-align:center;
+  font-size: 2rem;
+}
