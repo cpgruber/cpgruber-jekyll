@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to my blog!"
+title:  "Hello, World."
 date:   2016-01-01
 description: New year, new career-- might as well start a blog.
 tags: first blog
