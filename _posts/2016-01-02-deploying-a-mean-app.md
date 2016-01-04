@@ -2,7 +2,7 @@
 layout: post
 title:  "Painless deployment of MEAN stack app"
 date:   2016-01-02
-description: It's really not that hard.
+description: Deployment doesn't have to be scary.
 tags: Add Tags Here
 css: /css/blog.css
 ---
