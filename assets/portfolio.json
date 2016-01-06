@@ -1,5 +1,15 @@
 {"items":[
       {
+        "title":"NBA Morning Rewind",
+        "tags":["node.js","express","Mongo","D3.js", "API", "Heroku"],
+        "shortDesc":"NBA Morning Rewind is an Express app I built using the Stattleship API. The back-end uses a series of promises and queries to the API to retreive all the game logs and player logs, sift through stats to find top performers in each game, and map and save game data in MongoDB. The front-end gets game data for a given day and graphically displays each box score. Since the processing on the back-end takes a moment, I set up a scheduler to query the API in the middle of the night so the most recent scores will be available immediately upon waking up.",
+        "image":"nba-scores.png",
+        "date":[1,16,"Jan. 2016"],
+        "url":"http://nba-scores.herokuapp.com",
+        "code":"http://www.github.com/cpgruber/nba-score-app",
+        "include":"y"
+      },
+      {
         "title":"GitStamps!",
         "tags":["node.js","express","D3.js", "API", "MVC"],
         "shortDesc":"GitStamps is a simple tool that takes a snapshot of a GitHub user and returns an aggregate characterization of the user at that moment. The application's back-end is built on node, express, and MongoDB, while the front end simulates a single page app using object oriented JavaScript and AJAX to retreive information from our API. The interactive chart on each stamp is generated using D3, and meant to emulate the breakdown of languages GitHub provides for each repository. GitStamps was created in 7 days by my team and me for our third project at General Assembly. It is still being developed, but can be used. Feel free to join and check out your GitHub existence!",
