@@ -27,21 +27,24 @@ Login to your Heroku dashboard-- if you're not signed up with Heroku, do so [her
 Since Heroku's default database is PostgreSQL, we need to provision the app a MongoDB database. Click on the app in the dashboard and navigate to the `Resources` tab. Under add-ons, do a search for "mongo"-- click on `MongoLab` and provision a sandbox plan for the app. (Sidebar: if you haven't, Heroku will prompt you to enter credit card information to provision this **free** add-on. Weird, but they haven't charged me for anything).
 
 ####Environment settings
-In your Heroku account, navigate to the `Settings` tab. In `Config_vars`, add a new key-value for the Stattleship API key in `env.js`. Since `env.js` is included in the `.gitignore`, the deployed app cannot have any references to the `env.js` file. Fortunately, this omission only needs to be made once in `controllers/gamesController.js`. The config variable we just created can be accessed using `process.env.KEY`. My `stattleship_params` variable looks like this:
+In your Heroku account, navigate to the `Settings` tab. In `Config_vars`, add a new key-value for the Stattleship API key in `env.js`. Since `env.js` is included in the `.gitignore`, the deployed app cannot have any references to the `env.js` file. A quick way to remedy this is to include the `fs` node module, which allows us to check for files in our file system. We can set the value of `var env` using a ternary expression, such that when an `env.js` file is found set the value of `var env` to the exports of that file, otherwise use `process.env` to access environment variables from the Heroku config variables. The config variable we just created can be accessed using `env.KEY`. My `stattleship_params` variable looks like this:
+
 {% highlight js %}
 // controllers/gamesController.js
+var fs = require("fs");
+var env = fs.existsSync("./env.js") ? require("../env.js") : process.env;
+// ^^ this will evaluate to require("env.js") locally and process.env in production
 
 var stattleship_params = {
   method:'GET',
   json:true,
   headers:{
     'Content-Type':'application/json',
-    'Authorization':'Token token='+process.env.stattleship,
+    'Authorization':'Token token='+ env.stattleship,
     'Accept':'application/vnd.stattleship.com; version=1.2'
   }
 }
-// NOTE: var env=require("env.js") in line 4 needs to be omitted
-// or commented out. `env.js` does not exist in the deployed app.
+
 {% endhighlight %}
 Now we have to tell the app to connect to the Mongo database we just provisioned. In `index.js`, we'll replace the local database connection with the MongoLab URI specified in `Config_vars`, again accessed using `process.env`. We'll also set the port using `process.env`:
 {% highlight js %}
