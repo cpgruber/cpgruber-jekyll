@@ -2,7 +2,7 @@ var black = 'rgba(60,60,60,0.5)'
 var tooltip = d3.select("body")
   .append("div")
   .attr('class','tooltip')
-  .style("position", "absolute")
+  .style("position", "fixed")
   .style("z-index", "10")
   .style("visibility", "hidden");
 
@@ -105,10 +105,18 @@ function barHover(d){
   var currOffset = window.pageYOffset;
   var innerH = window.innerHeight;
   var clientY = d3.event.clientY;
+  console.log(d3.event)
+  console.log(currOffset,innerH,clientY)
 
   tooltip.style("visibility", "visible")
-    .style("top", ((clientY<innerH/2)?(d3.event.clientY+currOffset)+"px":null))
-    .style("bottom", ((clientY<innerH/2)?null:(innerH-d3.event.clientY-currOffset)+"px"))
+    .style("top",function(){
+        var offset = (clientY<innerH/2)?(d3.event.clientY)+"px":null;
+        return offset;
+    })
+    .style("bottom",function(){
+      var offset = (clientY<innerH/2)?null:(innerH-d3.event.clientY)+"px";
+      return offset;
+    })
     .style("left",function(){
       var offset = d3.event.clientX+10;
       return offset+'px';
