@@ -105,8 +105,6 @@ function barHover(d){
   var currOffset = window.pageYOffset;
   var innerH = window.innerHeight;
   var clientY = d3.event.clientY;
-  console.log(d3.event)
-  console.log(currOffset,innerH,clientY)
 
   tooltip.style("visibility", "visible")
     .style("top",function(){
