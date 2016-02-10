@@ -1,5 +1,35 @@
 {"items":[
       {
+        "title":"A Quick Fist-of-Five",
+        "tags":["node.js","express","web sockets","SASS"],
+        "shortDesc":"To quickly gauge a room's understanding of a topic, my instructors at General Assembly would often employ a fist-of-five method. Everyone in the class raises their hand to show their comfort level with a topic-- from a fist, representing complete despair, incrementing to five fingers, representing complete mastery. It can certainly be uncomfortable to hold up a fist when your neighbor is waving their hand in the air wanting to move on to the next lesson. Using web sockets, I emulated this fist-of-five method digitally, so the class can be gauged in the same way, the only difference being anonymity. The application generates unique links for polls, which are to be taken in real time, and displays results using a single hand to represent the class.",
+        "image":"aqfof.png",
+        "date":[2,16,"Feb. 2016"],
+        "url":"http://aqfof.co",
+        "code":"http://www.github.com/cpgruber/fist-of-five",
+        "include":"y"
+      },
+      {
+        "title":"Plant Whisperer",
+        "tags":["node.js","express","MongoDB","Angular.js","Twitter"],
+        "shortDesc":"Plant Whisperer was inspired by the time I was house sitting and managed to fail at my only responsibility: watering the plants. With this service, users can login using Twitter, register a plant and set the frequency that it needs to be watered, and every X number of days they will receive a tweet reminding them to water their plant. This application was built on the MEAN stack and includes Twitter OAuth using Passport. Sign up today to keep your plants happy!",
+        "image":"plant-whisperer.png",
+        "date":[1.5,16,"Jan. 2016"],
+        "url":"http://plant-whisperer.herokuapp.com",
+        "code":"http://www.github.com/cpgruber/plant-whisperer",
+        "include":"y"
+      },
+      {
+        "title":"Offensive Efficieny in the Wild",
+        "tags":["D3.js", "data viz", "JavaScript", "responsive","quick"],
+        "shortDesc":"Working alongside the stats wizards at Stattleship, the opportunity arose for me to make a visualization to complement a blog post. The purpose of the visualization was to show how basketball's offensive efficiency metric is favorable to big-men over guards because of the weight of offensive rebounds in the calculation. The user is able to toggle between the components of the metric to compare the relative weights of each statistic, and see the skew of the metric toward players that crash the boards. Two players, Stephen Curry and Deandre Jordan, are highlighted throughout to show that even the league's most prolific scorer is deemed substantially less efficient than the one of the league's top rebounders.",
+        "image":"oe.png",
+        "date":[1,16,"Jan. 2016"],
+        "url":"http://blog.stattleship.com/deandre-jordan-and-offensive-efficiency-in-the-wild/",
+        "code":"http://www.github.com/cpgruber/oe-chart",
+        "include":"y"
+      },
+      {
         "title":"NBA Morning Rewind",
         "tags":["node.js","express","Mongo","D3.js", "API", "Heroku"],
         "shortDesc":"NBA Morning Rewind is an Express app I built using the Stattleship API. The back-end uses a series of promises and queries to the API to retreive all the game logs and player logs, sift through stats to find top performers in each game, and map and save game data in MongoDB. The front-end gets game data for a given day and graphically displays each box score. Since the processing on the back-end takes a moment, I set up a scheduler to query the API in the middle of the night so the most recent scores will be available immediately upon waking up.",
