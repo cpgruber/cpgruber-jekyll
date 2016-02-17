@@ -91,8 +91,14 @@ function dotHover(d){
   var clientY = d3.event.clientY;
 
   tooltip.style("visibility", "visible")
-    .style("top", ((clientY<innerH/2)?(d3.event.clientY+currOffset)+"px":null))
-    .style("bottom", ((clientY<innerH/2)?null:(innerH-d3.event.clientY-currOffset)+"px"))
+    .style("top",function(){
+        var offset = (clientY<innerH/2)?(d3.event.clientY)+"px":null;
+        return offset;
+    })
+    .style("bottom",function(){
+      var offset = (clientY<innerH/2)?null:(innerH-d3.event.clientY)+"px";
+      return offset;
+    })
     .style("left",function(){
       var offset = d3.event.clientX+10;
       return offset+'px';
