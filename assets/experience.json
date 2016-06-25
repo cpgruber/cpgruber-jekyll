@@ -1,12 +1,23 @@
 {"items":[
 {
+    "title": "Management Systems International",
+    "position":"Web Developer",
+    "type":"Work",
+    "start":[2016,1.5],
+    "end":[2016,8.6],
+    "location":"Arlington, VA",
+    "date":"Feb 2015 - Present",
+    "description":"Builds web and mobile applications for monitoring and evaluation of USAID projects. Typical stack includes Ruby on Rails and Angular.js, but projects have also incorporated offline databases such as PouchDB and data visualization libraries like D3.js and Leaflet.js. Works in close coordination with CTO and senior developer planning and appraising technical components of projects spanning the globe.",
+    "include":"y"
+},
+{
     "title": "Maptime Cape Cod",
     "position":"Co-founder and organizer",
     "type":"Other",
     "start":[2015,1.5],
     "end":[2015,8.6],
     "location":"Cape Cod, MA",
-    "date":"Feb 2015 - Present",
+    "date":"February 2015 - September 2015",
     "description":"Helped launch local chapter of Maptime, an international community that provides open access to modern mapping technologies and trends. Led a meetup on web maps and mapping libraries, and included a live coding demo to build a simple, interactive map.",
     "include":"y"
 },
@@ -137,7 +148,7 @@
     "position":"Web Development Immersive student",
     "type":"Education",
     "start":[2015,9.3],
-    "end":[2016,0.35],
+    "end":[2016,0.95],
     "location":"Washington, D.C.",
     "date":"October 2015 - January 2016",
     "description":"Learning web development all day every day.",
