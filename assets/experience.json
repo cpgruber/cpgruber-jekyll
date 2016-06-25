@@ -190,9 +190,9 @@
 ],
 "technical":[
 "Languages: JavaScript, Ruby, SQL, HTML, CSS, Python, PHP",
-"Frameworks/Libraries: D3.js, jQuery, node/express, Rails, Sinatra",
+"Frameworks/Libraries: Angular.js, D3.js, jQuery, node/express, Rails, Sinatra",
 "GIS: Mapbox.js, Leaflet.js, geojson, topojson, ESRI ArcGIS suite 10.x, including ArcServer, ArcGIS JavaScript API, ArcPy, ModelBuilder, ArcGIS Online",
-"Database: MongoDB, PostgreSQL, MSSQL",
+"Database: PostgreSQL, CouchDB/PouchDB, MongoDB, MSSQL",
 "Version Control: Git, Github, Heroku"
 ],
 "skills":[{
