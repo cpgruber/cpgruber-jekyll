@@ -4,10 +4,10 @@
     "position":"Web Developer",
     "type":"Work",
     "start":[2016,1.5],
-    "end":[2016,8.6],
+    "end":[2017,8.6],
     "location":"Arlington, VA",
     "date":"Feb 2015 - Present",
-    "description":"Builds web and mobile applications for monitoring and evaluation of USAID projects. Typical stack includes Ruby on Rails and Angular.js, but projects have also incorporated offline databases such as PouchDB and data visualization libraries like D3.js and Leaflet.js. Works in close coordination with CTO and senior developer planning and appraising technical components of projects spanning the globe.",
+    "description":"Builds web and mobile applications for monitoring and evaluation of USAID projects. Typical stack includes Ruby on Rails and Angular.js, but projects have also incorporated offline-first databases such as PouchDB and CouchDB, data visualization libraries like D3.js and Leaflet.js, and mobile app frameworks Cordova and Ionic. Works in close coordination with CTO and senior developer planning and appraising technical components of projects spanning the globe.",
     "include":"y"
 },
 {
@@ -189,11 +189,11 @@
 }
 ],
 "technical":[
-"Languages: JavaScript, Ruby, SQL, HTML, CSS, Python, PHP",
-"Frameworks/Libraries: Angular.js, D3.js, jQuery, node/express, Rails, Sinatra",
+"Languages: JavaScript, Ruby, SASS, Bash, HTML, SQL, Python",
+"Frameworks/Libraries: Angular 1.x, Rails, D3.js, Bootstrap, PouchDB, Cordova, Ionic, React, jQuery, node/express, Sinatra",
 "GIS: Mapbox.js, Leaflet.js, geojson, topojson, ESRI ArcGIS suite 10.x, including ArcServer, ArcGIS JavaScript API, ArcPy, ModelBuilder, ArcGIS Online",
-"Database: PostgreSQL, CouchDB/PouchDB, MongoDB, MSSQL",
-"Version Control: Git, Github, Heroku"
+"Database: PostgreSQL, CouchDB, MongoDB, MSSQL",
+"DevOps: AWS, Nginx, Ubuntu, Git, GitHub, BitBucket, Heroku"
 ],
 "skills":[{
     "title": "Began learning GIS",
@@ -201,7 +201,7 @@
     "location":"Duke University",
     "date":"August 2012",
     "description":"ESRI GIS",
-    "include":"y"
+    "include":"n"
 },
 {
     "title": "Python",
@@ -209,7 +209,7 @@
     "location":"Duke University",
     "date":"September 2013",
     "description":"Python",
-    "include":"y"
+    "include":"n"
 },
 {
     "title": "Began learning Code, JS, jQuery, CSS, HTML",
@@ -217,7 +217,7 @@
     "location":"CCC",
     "date":"August 2012",
     "description":"JS",
-    "include":"y"
+    "include":"n"
 },
 {
     "title": "ESRI JS API",
@@ -225,7 +225,7 @@
     "location":"ccc",
     "date":"August 2012",
     "description":"ESRI GIS",
-    "include":"y"
+    "include":"n"
 },
 {
     "title": "mapbox, leaflet",
@@ -233,7 +233,7 @@
     "location":"Duke University",
     "date":"August 2012",
     "description":"ESRI GIS",
-    "include":"y"
+    "include":"n"
 },
 {
     "title": "php",
@@ -241,7 +241,7 @@
     "location":"Duke University",
     "date":"August 2012",
     "description":"ESRI GIS",
-    "include":"y"
+    "include":"n"
 },
 {
     "title": "D3",
@@ -249,7 +249,7 @@
     "location":"Duke University",
     "date":"August 2012",
     "description":"ESRI GIS",
-    "include":"y"
+    "include":"n"
 }
 
 ]

@@ -102,3 +102,7 @@ svg{
 .innerText a{
   z-index:1000;
 }
+.narrate{
+  font-size:1.6rem;
+  margin-top:3rem;
+}

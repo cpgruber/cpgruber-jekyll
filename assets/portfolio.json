@@ -5,7 +5,7 @@
         "shortDesc":"To quickly gauge a room's understanding of a topic, my instructors at General Assembly would often employ a fist-of-five method. Everyone in the class raises their hand to show their comfort level with a topic-- from a fist, representing complete despair, incrementing to five fingers, representing complete mastery. It can certainly be uncomfortable to hold up a fist when your neighbor is waving their hand in the air wanting to move on to the next lesson. Using web sockets, I emulated this fist-of-five method digitally, so the class can be gauged in the same way, the only difference being anonymity. The application generates unique links for polls, which are to be taken in real time, and displays results using a single hand to represent the class.",
         "image":"aqfof.png",
         "date":[2,16,"Feb. 2016"],
-        "url":"http://aqfof.co",
+        "url":"http://aqfof.herokuapp.com",
         "code":"http://www.github.com/cpgruber/fist-of-five",
         "include":"y"
       },
