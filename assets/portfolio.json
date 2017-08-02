@@ -1,5 +1,15 @@
 {"items":[
       {
+        "title":"Wedding Website",
+        "tags":["Angular.js","PouchDB","CouchDB","SASS"],
+        "shortDesc": "I was pretty excited to get engaged. Not only because I get to marry my best friend, but also because I get to make the wedding website of my dreams. I wanted it to function as a guest book of sorts, allowing friends and family to send their well wishes, and what's a better way to convey a message than a gif. The site is integrated with the Giphy API and a Cloudant-hosted Couch database, which acts as a repository for our guests' gif-laden messages and feeds our channel lineup on the tv. Click the tv to open the form, and give it a shot (If I don't know you, please keep it clean). Still a work in progress, but the site is mostly finished and will be populated with real text and images later-- planning a wedding is a lot of work.",
+        "image":"wedding.png",
+        "date":[7,17,"July 2017"],
+        "url":"http://www.carolynandchase.com",
+        "code":"http://www.github.com/cpgruber/carolyn-and-chase",
+        "include":"y"
+      },
+      {
         "title":"A Quick Fist-of-Five",
         "tags":["node.js","express","web sockets","SASS"],
         "shortDesc":"To quickly gauge a room's understanding of a topic, my instructors at General Assembly would often employ a fist-of-five method. Everyone in the class raises their hand to show their comfort level with a topic-- from a fist, representing complete despair, incrementing to five fingers, representing complete mastery. It can certainly be uncomfortable to hold up a fist when your neighbor is waving their hand in the air wanting to move on to the next lesson. Using web sockets, I emulated this fist-of-five method digitally, so the class can be gauged in the same way, the only difference being anonymity. The application generates unique links for polls, which are to be taken in real time, and displays results using a single hand to represent the class.",
