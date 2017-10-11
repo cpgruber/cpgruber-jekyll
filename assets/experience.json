@@ -189,11 +189,11 @@
 }
 ],
 "technical":[
-"Languages: JavaScript, Ruby, SASS, Bash, HTML, SQL, Python",
-"Frameworks/Libraries: Angular 1.x, Rails, D3.js, Bootstrap, PouchDB, Cordova, Ionic, React, jQuery, node/express, Sinatra",
+"Languages: JavaScript, Ruby, SASS, Unix CLI, HTML, SQL, Python",
+"Frameworks/Libraries: Angular 1.x, Rails, D3.js, Bootstrap, PouchDB, Electron, Cordova, Ionic, React, jQuery, node/express, Sinatra",
 "GIS: Mapbox.js, Leaflet.js, geojson, topojson, ESRI ArcGIS suite 10.x, including ArcServer, ArcGIS JavaScript API, ArcPy, ModelBuilder, ArcGIS Online",
 "Database: PostgreSQL, CouchDB, MongoDB, MSSQL",
-"DevOps: AWS, Nginx, Ubuntu, Git, GitHub, BitBucket, Heroku"
+"DevOps: AWS EC2 and S3, Nginx, Ubuntu, Linux, Git, GitHub, BitBucket, Heroku"
 ],
 "skills":[{
     "title": "Began learning GIS",
