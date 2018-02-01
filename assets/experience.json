@@ -4,11 +4,22 @@
     "position":"Web Developer",
     "type":"Work",
     "start":[2016,1.5],
-    "end":[2017,8.6],
+    "end":[2018,8.6],
     "location":"Arlington, VA",
     "date":"Feb 2015 - Present",
     "description":"Builds web and mobile applications for monitoring and evaluation of USAID projects. Typical stack includes Ruby on Rails and Angular.js, but projects have also incorporated offline-first databases such as PouchDB and CouchDB, data visualization libraries like D3.js and Leaflet.js, and mobile app frameworks Cordova and Ionic. Works in close coordination with CTO and senior developer planning and appraising technical components of projects spanning the globe.",
     "include":"y"
+},
+{
+  "title": "Project Northstar",
+  "position":"Volunteer",
+  "type":"Other",
+  "start":[2017,8.1],
+  "end":[2018,8.6],
+  "location":"Washington, D.C.",
+  "date":"September 2017 - Present",
+  "description":"One-on-one tutoring and mentoring for low-income or homeless students in Washington, D.C. I help a 3rd grader with reading and math one night per week.",
+  "include":"y"
 },
 {
     "title": "Maptime Cape Cod",
