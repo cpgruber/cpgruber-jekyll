@@ -7,7 +7,7 @@
     "end":[2018,8.6],
     "location":"Arlington, VA",
     "date":"Feb 2015 - Present",
-    "description":"Builds web and mobile applications for monitoring and evaluation of USAID projects. Typical stack includes Ruby on Rails and Angular.js, but projects have also incorporated offline-first databases such as PouchDB and CouchDB, data visualization libraries like D3.js and Leaflet.js, and mobile app frameworks Cordova and Ionic. Works in close coordination with CTO and senior developer planning and appraising technical components of projects spanning the globe.",
+    "description":"Builds web and mobile applications for monitoring and evaluation of international development projects. Technology stack includes React/Redux, Ruby on Rails, and Angular.js in addition to database APIs such as PouchDB, data visualization libraries like D3.js and Leaflet.js, and native app frameworks Cordova and Electron. Works in close coordination with CTO and Client Innovations director planning and appraising technical components of projects spanning the globe.",
     "include":"y"
 },
 {
