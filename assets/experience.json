@@ -1,13 +1,24 @@
 {"items":[
 {
+    "title": "Esri",
+    "position":"Software Developer",
+    "type":"Work",
+    "start":[2016,5.0],
+    "end":[2020,4.6],
+    "location":"Arlington, VA",
+    "date":"June 2018 - Present",
+    "description":"Contributes to the development of ArcGIS Hub, an civic engagement platform for communities and governments.",
+    "include":"y"
+},
+{
     "title": "Management Systems International",
     "position":"Web Developer",
     "type":"Work",
     "start":[2016,1.5],
-    "end":[2018,8.6],
+    "end":[2018,4.6],
     "location":"Arlington, VA",
-    "date":"Feb 2015 - Present",
-    "description":"Builds web and mobile applications for monitoring and evaluation of international development projects. Technology stack includes React/Redux, Ruby on Rails, and Angular.js in addition to database APIs such as PouchDB, data visualization libraries like D3.js and Leaflet.js, and native app frameworks Cordova and Electron. Works in close coordination with CTO and Client Innovations director planning and appraising technical components of projects spanning the globe.",
+    "date":"February 2016 - May 2018",
+    "description":"Built web and mobile applications for monitoring and evaluation of international development projects. Technology stack includes React/Redux, Ruby on Rails, and Angular.js in addition to database APIs such as PouchDB, data visualization libraries like D3.js and Leaflet.js, and native app frameworks Cordova and Electron.  Developed an end-to-end web, mobile, and desktop suite for designing, administering, and analyzing country-level early grade learning assessments that has been used to test reading and math abilities of more than 20,000 children in four countries.",
     "include":"y"
 },
 {
